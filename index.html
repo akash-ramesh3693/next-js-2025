@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="styles.css">
         <title>my web page</title>
     </head>
-    <body> 
+    <br> 
         <div style="text-align: center;">
             this is div container
         </div>
@@ -118,6 +118,74 @@
             </tr>
         </table>
 
-        
+        <hr size="6" color="black"/>
+
+        <h2>Second Structure Table</h2>
+        <table border="1" style="border: 1px solid green; border-collapse: collapse;" align="center" width="700" height="100" cellpadding="20" cellspacing="10" >
+            <thead>
+                <tr>
+                    <th>S.no</th>
+                    <th>Employee Name</th>
+                    <th>Employee dept</th>
+                    <th>No.of days</th>
+                    <th>No.of daysoff</th>
+                    <th>gender</th>
+
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td align="center">1</td>
+                    <td>john doe</td>
+                    <td rowspan="2"> Engineering</td>
+                    <td colspan="2"> 3</td>
+                    <td rowspan="2">Male</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>john doe 2</td>
+                    <td colspan="2">3</td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>S.no</th>
+                    <th>Employee Name</th>
+                    <th>Employee Dept</th>
+                    <th>No.of.days</th>
+                    <th>No.of.daysoff</th>
+                    <th>gender</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr size="5" color="brownS" />
+        <h2>Input tags</h2>
+        <h2>Possible Attributes</h2>
+
+        <input type="text" readonly name="username" value="akash@21" placeholder=" akash@21"/>
+        <input type="text"  name="username" value="akash@21" placeholder=" akash@21"/>
+        <input type="password" size="20" maxlength="5" minlength="2"/>
+        <input type="email" required placeholder="johndoe@xyz" name="email" id="">
+        <input type="date"/>
+        <input type="datetime-local" name="" id=""/>
+        <input type="number" name="" id=""/>
+        <input type="file" name="" id=""/>
+        <input type="checkbox" name="" id=""/>
+    </br>
+        <input type="radio" name="ra" id=""/>one
+        <input type="radio" name="ra" id=""/>two
+        <input type="radio" name="ra" id=""/>three
+
+        <textarea rows="10" cols="40" maxlength="50"></textarea>
+    
+        <select name="Gender" id="">
+            <option value="Male"> male</option>
+            <option value="Female"> female</option>
+        </select>
+
+        <hr size="6" color="maroon">
     </body>
 </html>
