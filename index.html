@@ -186,6 +186,125 @@
             <option value="Female"> female</option>
         </select>
 
-        <hr size="6" color="maroon"> 
-    </body>
+        <hr size="6" color="maroon">
+        <h1>Iframe tag</h1>
+        <h1>Embedding External content with iframe</h1>
+        
+        
+        <p>below is an example of embedding a youtube using
+            an iframe
+        </p>
+
+        <iframe
+        width="560"
+        height="315"
+        frameborder="0"
+        allowfullscreen
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        ></iframe>
+
+        <h3>Google Maps</h3>
+        <iframe 
+        allowfullscreen
+        width="560"
+        height="315"
+        frameborder="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8171646624374!2d-77.03637078573957!3d38.8976762795747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86ec812ad!2sWhite%20House!5e0!3m2!1sen!2sus!4v1617653188020!5m2!1sen!2sus"
+        >
+
+        </iframe>
+
+        <hr size="5" color="red"/>
+
+        <h1>button types in html5</h1>
+        <button type="button">button</button>
+        <button type="menu">menu</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+
+        
+        <hr size="5" color="red"/>
+
+        <h1>Hyperlinks in html5</h1>
+
+        <a href="check.html" target="_blank">newpage</a>
+        <a href="check.html" target="_self">self</a>
+        <a href="check.html" target="_top">top</a>
+        <a href="check.html" target="_parent">parent</a>
+
+        <hr size="5" color="black">
+
+        <h1>Forms in html</h1>
+        <form action="submitform" enctype="text/plain" method="post">
+
+            <label for="username"> username:</label>
+            <input type="text" id="username" placeholder="user@name"/><br/>
+            <label for="email">email:</label>
+            <input type="email" name="mailid" id="email" required placeholder="
+            example@xyz.com"><br/>
+            <label for="password">password:</label>
+            <input type="password" name="userpassword" id="password" placeholder="lockmyPWD1$" 
+            required><br/>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female"/>
+            <label for="female">female</label> <br/>        
+
+            <label for="age">age:</label>
+            <select name="age" id="age">
+                <option value="under18">&lt;18</option>
+                <option value="18 to 25">18 &gt;=25</option>
+                <option value="25 to 30">25 &gt;=30</option>
+            </select><br/>
+
+            <label for="message" style="position: relative; bottom: 25px;">Message</label>
+            <textarea name="message" id="message" rows="4" 
+            cols="25" maxlength="100"
+            ></textarea><br/>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">Agree terms and conditions</label><br/>
+        
+            <button type="submit">submit form</button>
+        </form>
+
+        <hr size="5" color="maroon">
+
+        <h1>marque tag</h1>
+
+        <marquee behavior="scroll" direction="right" scrollamount="5
+        10">
+
+            hello
+        </marquee>
+
+        <hr size="5" color="maroon">
+        <h1>audio & video ctrl tag</h1>
+
+        <audio controls>
+            <source src="" type="audio/mpeg">
+            your browser doesn't support audio tag
+        </audio>
+
+        <video controls>
+            <source src="" type="video/mp4">
+            fall back test
+        </video>
+
+        <hr size="6" color="maroon"/>
+        <h1>subscript and superscript tags</h1>
+
+        <p>this is <sub>subscript</sub> and this is <sup>superscript</sup></p><br/>
+        <hr size="6" color="maroon"/>
+        
+        <h1>address tag</h1>
+        <address>
+            written by<a href="mailto:webmaster@example.com">john doe</a>.<br/>
+            visit us at;<br>
+            Example.com<br>
+            box 567 disney land <br>
+            USA
+        </address>
+    </body> 
+    
 </html>
